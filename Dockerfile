@@ -6,4 +6,5 @@ ADD config_sqlite.js /opt/config_sqlite.js
 RUN chmod +x /opt/adapter.sh
 
 ENTRYPOINT ["/opt/adapter.sh", "/entrypoint.sh"]
+ENV GHOST_CONTENT /var/ghost
 CMD ["npm", "start", "--production"]
