@@ -2,7 +2,7 @@
 
 # reset GHOST_SOURCE and GHOST_CONTENT, 
 # ghost will cover them in production mode
-export GHOST_SOURCE="/usr/src/ghost"
+export GHOST_SOURCE="/ghost"
 export GHOST_CONTENT="$GHOST_SOURCE/content"
 export GHOST_FILE_STORAGE="false"
 
